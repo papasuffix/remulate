@@ -1,4 +1,4 @@
-# remulate
+# Remulate
 UserMode Remote Function Emulator with PEB/TEB/TLS/STACK and Syscall Support for Windows
 
 # Note
@@ -7,3 +7,7 @@ This has extensive but not complete syscall coverage, if for whatever reason you
 
 ```cpp
 add_syscall("NtAllocateVirtualMemory", { handle(), inout_u64(), scalar(), inout_u64(), scalar(), scalar() });```
+
+# Showcase
+
+[![Showcase](https://img.youtube.com/vi/OaeDM9dmXhM/0.jpg)](https://www.youtube.com/watch?v=OaeDM9dmXhM)   
